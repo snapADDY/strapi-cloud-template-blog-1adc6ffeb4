@@ -2,6 +2,29 @@
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
 
+## 🏁 Quick Start
+
+After cloning this template, run the setup script to configure your environment:
+
+```
+npm install
+npm run setup
+```
+
+This will create a `.env` file with secure keys. Then you can start developing:
+
+```
+npm run develop
+```
+
+### `setup`
+
+Run this once after cloning to create your `.env` file with secure keys.
+
+```
+npm run setup
+```
+
 ### `develop`
 
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
