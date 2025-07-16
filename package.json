@@ -8,6 +8,7 @@
     "deploy": "strapi deploy",
     "develop": "strapi develop",
     "seed:example": "node ./scripts/seed.js",
+    "setup": "node setup.js",
     "start": "strapi start",
     "strapi": "strapi"
   },
@@ -23,7 +24,6 @@
     "react-router-dom": "^6.0.0",
     "styled-components": "^6.0.0"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
